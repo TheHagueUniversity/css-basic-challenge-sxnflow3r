@@ -1,11 +1,11 @@
 /*
 COLOR PALETTE
 https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
-#F7FFF7 - almost white
-#343434 - dark gray - almost black
-#2F3061 - blue dark
-#FFE66D - yellow
-#A1C6D7 - blue light
+#242582 - dark purple blue 
+#553D67 - maroon purple
+#F64C72 - hot pink
+#99738E - light brown purple
+#2F2FA2 - lighter to first purple blue
 */
 
 
@@ -19,10 +19,11 @@ html {
 }
 
 body {
-  color: #343434;
+  color: #553D67;
   margin: 0;
   padding: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
   font-size: 15px;
   line-height: 1.5;
 }
@@ -30,23 +31,24 @@ img {
   width: 300px;
 }
 a {
-  color: #FFE66D;
+  color: #F64C72;
 }
 a:hover {
-  text-decoration: none;
+  text-decoration:none;
 }
 h1 {
-  font-size: 100px;
+  font-size: 80px;
   line-height: 1;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  color: #F64C72;
 }
 h2 {
-  font-size: 45px;
-}
-h1, h2 {
-  font-family: 'Caveat', cursive;
+  font-size: 30px;
+  font-family: 'Josefin Sans', sans-serif;
   font-weight: 400;
-  margin: 0;
 }
+
 .content-wrap {
   max-width: 800px;
   width: 85%;
@@ -55,6 +57,7 @@ h1, h2 {
 }
 h3 {
   margin-bottom: 0;
+  colo#553D67
 }
 .item-details h3 + p {
   font-style: italic;
@@ -74,7 +77,7 @@ h3 {
 /* Profile
 ------------------------------------*/
 header {
-  background: #2F3061;
+  background: #2F2FA2;
   color: #F7FFF7;
 }
 
@@ -85,18 +88,18 @@ header {
   background: #F7FFF7;
 }
 .projects a {
-  color: #2F3061;
+  color: #F64C72;
 }
 .projects .btn {
-  color: #F7FFF7;
-  background: #2F3061;
+  color: #2F3061;
+  background: #F64C72;
   text-decoration: none;
   padding: 8px;
   border-radius: 4px;
   display: inline-block;
 }
 .projects .btn:hover {
-  background: rgba(47, 48, 97, 80%);
+  background: rgba(255, 255, 255, 80%);
 }
 .project-item {
   overflow: hidden;
@@ -109,15 +112,19 @@ header {
 /* Work Experience
 ------------------------------------*/
 .work-experience {
-  background: #A1C6D7;
+  background: #2F2FA2;
+  color:#ffffff;
+
 }
+
+
 
 
 
 /* Education
 ------------------------------------*/
 .education {
-  background-image: url(../images/joanna-kosinska-unsplash.jpg);
+  background-image: url(../images/1.jpg);
   background-size: cover;
   background-position: top right;
   padding-bottom: 100px;
@@ -130,7 +137,7 @@ header {
 /* Contact Info
 ------------------------------------*/
 footer {
-  background: #343434;
+  background: #2F2FA2;
   color: #F7FFF7;
 }
 .contact-list {
