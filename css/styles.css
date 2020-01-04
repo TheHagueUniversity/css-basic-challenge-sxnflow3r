@@ -138,6 +138,21 @@ header {
   width: 60%;
 }
 
+/* Hobby
+------------------------------------*/
+.hobbies{
+  background:#ffffff;
+}
+.hobby-item{
+  background: #F64C72;
+  text-decoration: none;
+  padding: 2px;
+  border-radius: 2px;
+  display: inline-block;
+}
+.hobby-item:hover{
+  background: rgba(255, 255, 255);
+}
 
 /* Contact Info
 ------------------------------------*/
