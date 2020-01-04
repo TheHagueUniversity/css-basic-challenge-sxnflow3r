@@ -114,10 +114,15 @@ header {
 .work-experience {
   background: #2F2FA2;
   color:#ffffff;
-
 }
-
-
+.work-experience .btn {
+  color: #2F3061;
+  background: #F64C72;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 4px;
+  display: inline-block;
+}
 
 
 
